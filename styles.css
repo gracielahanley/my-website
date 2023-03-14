@@ -1,0 +1,31 @@
+body {
+    background-color: darkolivegreen;
+}
+nav {
+    padding: 20px 0px;
+    background-color: aqua;
+}
+nav ul {
+    margin: 8px 0px;
+    padding: 0px;
+    
+}
+nav li {
+    display: inline;
+    list-style: none;
+}
+.nav-name {
+    font-size: 22px;
+}
+.nav-menu {
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #1F1D36;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+    color: #864879;
+}
