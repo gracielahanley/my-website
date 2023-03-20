@@ -3,9 +3,11 @@ body {
 }
 nav {
     padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
 }
 nav ul {
-    margin: 8px 0px;
+    margin: 20px 0px;
     padding: 0px;
     
 }
@@ -26,7 +28,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-    color: #864879;
+    color: #301E67;
 }
 hr {
     border-top: 2px solid black;
@@ -98,4 +100,91 @@ hr {
 }
 -projects-text {
     color: #03001C;
+}
+.logo {
+    max-width: 110px;
+}
+.project-title {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+    color: #03001C;
+}
+.launching {
+    background-color: #EEEEEE;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+
+    nav {
+        padding: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+        background-color: #B6EADA;
+    }
+    .about {
+        margin-left: 0;
+    }
+    .profile-pic {
+        max-width: 120px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        margin: 85px 30px 0px 30px;
+        filter: drop-shadow(3px 5px 10px #434242);
+    }
+    .first-text {
+        margin-top: 14rem;
+    }
+    .main-name{
+        font-size: 40px;
+        text-align: center;
+    }
+    .description-name {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about-text {
+        color: #03001C;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .about-me {
+        font-size: 35px;
+    }
+    .about-paragraph {
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 18px;
+    }
+    .project-title {
+        font-size: 40px;
+        margin-top: 6rem;
+    }
+    .homepagepic {
+        max-width: 70%;
+    }
+    .project-image {
+        display: flex;
+        justify-content: center;
+    }
+    .projects-names {
+        text-align: center;
+    }
+    .project-paragraph {
+        font-size: 18px;
+        text-align: center;
+    }
+    .launching {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 10px;
+    }
 }
